@@ -1,0 +1,38 @@
+@import "bootstrap-ambiance/main.less";
+
+body {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+// No break, cut text in nav-stacked for better look
+.nav-stacked li a {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.form-inline {
+	input {
+		width: 180px;
+		margin-right: 5px;
+	}
+}
+
+.panel.code {
+	.CodeMirror  {
+		margin: -15px;
+	}
+}
+
+.navbar-fixed-top {
+	.navbar, .alert {
+		border-radius: 0;
+		margin-bottom: 0;
+	}
+}
+
+.empty_productview {
+	color: darken(@well-bg, 10%);
+	font-size: 30px;
+}
